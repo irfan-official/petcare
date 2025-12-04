@@ -102,7 +102,7 @@ function Nav() {
   return (
     <nav
       id="nav"
-      className={`flex w-full px-5 md:px-20 py-5 bg-slate-900 text-white font-bold z-[99999999] sticky top-0 right-0 transition-transform duration-300  ${
+      className={`flex w-full px-5 md:px-20 py-5 bg-slate-900 text-white font-bold z-[999] sticky top-0 right-0 transition-transform duration-300  ${
         visible ? "translate-y-0" : "-translate-y-full"
       } `}
     >
