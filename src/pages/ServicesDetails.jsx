@@ -68,9 +68,9 @@ function ServicesDetails() {
     <div className="w-full min-h-screen flex flex-col items-center gap-2  text-black px-6 sm:px-20  py-20">
       <h1 className="text-5xl font-bold mb-10">{checkService?.serviceName}</h1>
       <section className="_top_ w-full flex flex-col lg:flex-row lg:items-center lg:justify-between border-b border-b-gray-600/40 py-6 lg:gap-8">
-        <span className="_left_ rounded-xl overflow-hidden shadow-lg inline-block ">
+        <span className="_left_ rounded-xl overflow-hidden  inline-block ">
           <img
-            className="w-full lg:w-[50rem] "
+            className="w-full lg:w-[50rem] h-[55vh] object-cover object-center"
             src={checkService?.image}
             alt=""
           />

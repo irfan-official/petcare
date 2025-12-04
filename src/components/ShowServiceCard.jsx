@@ -23,7 +23,7 @@ function ShowServiceCard({
       <section className="__img__ w-full  flex flex-col gap-2 justify-start ">
         <section className="__container__ relative h-full justify-start  rounded-2xl overflow-hidden">
           <img
-            className="h-[14rem]  w-full bg-center object-center"
+            className="h-[14rem]  w-full bg-center object-center object-cover "
             src={image}
             alt=""
           />
